@@ -1,0 +1,57 @@
+[project]
+name = "token-tax"
+version = "0.1.0"
+description = "Measures how many more tokens Southern African languages cost than English across open tokenizers."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+    { name = "Kudzai Mupita", email = "67244898+kudzaimupita@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "protobuf>=7.36.2",
+    "pyarrow>=26.0.1",
+    "pyyaml>=6.0.3",
+    "sentencepiece>=0.2.3",
+    "tiktoken>=0.14.0",
+    "tokenizers>=0.23.3",
+    "transformers>=5.23.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pandas-stubs>=3.1.0.261029",
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+    "types-pyyaml>=6.0.12.20261113",
+]
+
+[project.scripts]
+token-tax = "token_tax.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N", "PTH"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # non-ASCII text (e.g. the "▁" marker) is intended
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+files = ["src", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
