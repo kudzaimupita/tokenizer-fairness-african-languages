@@ -1,0 +1,16 @@
+key,label,source,vocab_size,status,identical_to
+gpt2,GPT-2,openai-community/gpt2@607a30d,50257,ok,
+cl100k,cl100k_base,tiktoken:cl100k_base,100277,ok,
+o200k,o200k_base,tiktoken:o200k_base,200019,ok,
+llama3,Llama 3.x,unsloth/Llama-3.2-1B-Instruct@5a8abab,128256,ok,
+qwen25,Qwen 2.5,Qwen/Qwen2.5-7B-Instruct@a09a354,151665,ok,
+qwen3,Qwen 3,Qwen/Qwen3-8B@b968826,151669,ok,Qwen 2.5
+gemma2,Gemma 2,unsloth/gemma-2-2b-it@457f2e1,256000,ok,
+gemma3,Gemma 3,unsloth/gemma-3-1b-it@5b11413,262145,ok,
+mistral,Mistral 7B v0.3,mistralai/Mistral-7B-Instruct-v0.3@c170c70,32768,ok,
+nemo,Mistral Nemo (Tekken),mistralai/Mistral-Nemo-Instruct-2407@04d8a90,131072,ok,
+bloom,BLOOM,bigscience/bloom@7f10a99,250680,ok,
+mt5,mT5,google/mt5-base@2eb1546,250100,ok,
+xlmr,XLM-R,FacebookAI/xlm-roberta-base@e73636d,250002,ok,
+afroxlmr,AfroXLMR,Davlan/afro-xlmr-base@25f2729,250002,ok,XLM-R
+afriberta,AfriBERTa,castorini/afriberta_large@231d924,70006,ok,

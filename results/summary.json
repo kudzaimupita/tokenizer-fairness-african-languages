@@ -1,0 +1,154 @@
+{
+  "n_sentences": 1012,
+  "bootstrap_samples": 2000,
+  "seed": 20231,
+  "identical_tokenizers": {
+    "qwen3": "qwen25",
+    "afroxlmr": "xlmr"
+  },
+  "correlation": {
+    "n_points": 117,
+    "n_tokenizers": 13,
+    "spearman_pooled": -0.5243532129091251,
+    "pearson_pooled_log_parity": -0.5057838650558594,
+    "spearman_within_tokenizer_median": -0.55,
+    "spearman_within_tokenizer_min": -0.6333333333333333,
+    "spearman_within_tokenizer_max": 0.0,
+    "spearman_within_language_median": -0.7307692307692307,
+    "spearman_within_language_min": -0.9285714285714286,
+    "spearman_within_language_max": -0.37362637362637363,
+    "spearman_within_language": {
+      "afr": -0.7307692307692307,
+      "deu": -0.6373626373626373,
+      "fra": -0.7967032967032966,
+      "sna": -0.7197802197802198,
+      "sot": -0.6134806353870134,
+      "swh": -0.9285714285714286,
+      "tsn": -0.37362637362637363,
+      "xho": -0.7912087912087912,
+      "zul": -0.8076923076923077
+    }
+  },
+  "languages": [
+    {
+      "lang": "eng",
+      "language": "English",
+      "median_parity": 1.0,
+      "min_parity": 1.0,
+      "best_tokenizer": "-",
+      "max_parity": 1.0,
+      "worst_tokenizer": "-",
+      "length_ratio": 1.0,
+      "median_fertility": 1.2518,
+      "median_single_token_rate": 0.9313
+    },
+    {
+      "lang": "fra",
+      "language": "French",
+      "median_parity": 1.4081,
+      "min_parity": 1.2044,
+      "best_tokenizer": "BLOOM",
+      "max_parity": 1.999,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.1945,
+      "median_fertility": 1.6969,
+      "median_single_token_rate": 0.6484
+    },
+    {
+      "lang": "deu",
+      "language": "German",
+      "median_parity": 1.5589,
+      "min_parity": 1.1716,
+      "best_tokenizer": "XLM-R",
+      "max_parity": 2.1419,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.1655,
+      "median_fertility": 1.9749,
+      "median_single_token_rate": 0.5854
+    },
+    {
+      "lang": "afr",
+      "language": "Afrikaans",
+      "median_parity": 1.5771,
+      "min_parity": 1.1906,
+      "best_tokenizer": "mT5",
+      "max_parity": 1.934,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.0585,
+      "median_fertility": 1.9789,
+      "median_single_token_rate": 0.5331
+    },
+    {
+      "lang": "swh",
+      "language": "Swahili",
+      "median_parity": 1.6387,
+      "min_parity": 0.8832,
+      "best_tokenizer": "AfriBERTa",
+      "max_parity": 2.1321,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.0465,
+      "median_fertility": 2.0869,
+      "median_single_token_rate": 0.36
+    },
+    {
+      "lang": "sna",
+      "language": "Shona",
+      "median_parity": 1.8769,
+      "min_parity": 1.3446,
+      "best_tokenizer": "mT5",
+      "max_parity": 2.2966,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.1185,
+      "median_fertility": 3.1834,
+      "median_single_token_rate": 0.1048
+    },
+    {
+      "lang": "xho",
+      "language": "isiXhosa",
+      "median_parity": 1.9036,
+      "min_parity": 1.3368,
+      "best_tokenizer": "mT5",
+      "max_parity": 2.2537,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.0542,
+      "median_fertility": 3.5429,
+      "median_single_token_rate": 0.0703
+    },
+    {
+      "lang": "sot",
+      "language": "Sesotho",
+      "median_parity": 2.0117,
+      "min_parity": 1.576,
+      "best_tokenizer": "mT5",
+      "max_parity": 2.3395,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.2028,
+      "median_fertility": 2.0558,
+      "median_single_token_rate": 0.4617
+    },
+    {
+      "lang": "zul",
+      "language": "isiZulu",
+      "median_parity": 2.0228,
+      "min_parity": 1.4005,
+      "best_tokenizer": "mT5",
+      "max_parity": 2.4193,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.1242,
+      "median_fertility": 3.6938,
+      "median_single_token_rate": 0.0414
+    },
+    {
+      "lang": "tsn",
+      "language": "Setswana",
+      "median_parity": 2.0878,
+      "min_parity": 1.6543,
+      "best_tokenizer": "mT5",
+      "max_parity": 2.3673,
+      "worst_tokenizer": "GPT-2",
+      "length_ratio": 1.2354,
+      "median_fertility": 1.9644,
+      "median_single_token_rate": 0.5331
+    }
+  ]
+}

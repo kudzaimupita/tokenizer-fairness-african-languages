@@ -1,0 +1,12 @@
+| language | median_parity | min_parity | best_tokenizer | max_parity | worst_tokenizer | length_ratio | median_fertility | median_single_token_rate |
+| :-- | --: | --: | --: | --: | --: | --: | --: | --: |
+| English | 1.00 | 1.00 | - | 1.00 | - | 1.00 | 1.25 | 93% |
+| French | 1.41 | 1.20 | BLOOM | 2.00 | GPT-2 | 1.19 | 1.70 | 65% |
+| German | 1.56 | 1.17 | XLM-R | 2.14 | GPT-2 | 1.17 | 1.97 | 59% |
+| Afrikaans | 1.58 | 1.19 | mT5 | 1.93 | GPT-2 | 1.06 | 1.98 | 53% |
+| Swahili | 1.64 | 0.88 | AfriBERTa | 2.13 | GPT-2 | 1.05 | 2.09 | 36% |
+| Shona | 1.88 | 1.34 | mT5 | 2.30 | GPT-2 | 1.12 | 3.18 | 10% |
+| isiXhosa | 1.90 | 1.34 | mT5 | 2.25 | GPT-2 | 1.05 | 3.54 | 7% |
+| Sesotho | 2.01 | 1.58 | mT5 | 2.34 | GPT-2 | 1.20 | 2.06 | 46% |
+| isiZulu | 2.02 | 1.40 | mT5 | 2.42 | GPT-2 | 1.12 | 3.69 | 4% |
+| Setswana | 2.09 | 1.65 | mT5 | 2.37 | GPT-2 | 1.24 | 1.96 | 53% |
